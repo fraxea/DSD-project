@@ -69,9 +69,9 @@ module TB;
 		// Level 6: reach floor 4
 		#20; in_snsr[4] = 1; #50; out_snsr[4] = 1;
 		#1000;
-		#50;
 
 		// Level 7: Go down
+		#50;
 		in_snsr[4] = 0; #50; out_snsr[4] = 0;
 		#100;
 		in_snsr[3] = 1; #50; out_snsr[3] = 1;
